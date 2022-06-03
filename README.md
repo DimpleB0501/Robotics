@@ -13,6 +13,11 @@
  `roslaunch chefbot_description view_robot.launch`<br/>
  ![chefbot](./images/chefbot.png)
 
+
+### Running chefbot in gazebo
+`sudo apt install ros-melodic-depthimage-to-laserscan -y`
+follow the [tutorial](https://automaticaddison.com/how-to-launch-the-turtlebot3-simulation-with-ros/) for turtlebot3 installation in ros melodic 
+
 ### Slam gmapping 
 Create a 2D occupancy grid map from the laser scan data and the mobile robot pose.
 
