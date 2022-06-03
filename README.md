@@ -6,11 +6,11 @@
 
 ### Running chefbot
 `mkdir ~/catkin_ws/src` <br/>
-`catkin_create_pkg chefbot_description catkin xacro`
-`catkin build`
-` sudo apt update`
-`sudo apt install ros-melodic-joint-state-publisher-gui`
- `roslaunch chefbot_description view_robot.launch`
+`catkin_create_pkg chefbot_description catkin xacro`<br/>
+`catkin build`<br/>
+`sudo apt update`<br/>
+`sudo apt install ros-melodic-joint-state-publisher-gui`<br/>
+ `roslaunch chefbot_description view_robot.launch`<br/>
  ![chefbot](./images/chefbot.png)
 
 ### Slam gmapping 
