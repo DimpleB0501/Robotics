@@ -1,6 +1,20 @@
 # Robotics - Assignment
 
 # Installation
+### Installing ROS Navigation stack
+`sudo apt-get install ros-melodic-navigation`
+
+### Running chefbot
+`mkdir ~/catkin_ws/src` <br/>
+`catkin_create_pkg chefbot_description catkin xacro`
+`catkin build`
+` sudo apt update`
+`sudo apt install ros-melodic-joint-state-publisher-gui`
+ `roslaunch chefbot_description view_robot.launch`
+ ![chefbot](./images/chefbot.png)
+
+### Slam gmapping 
+Create a 2D occupancy grid map from the laser scan data and the mobile robot pose.
 
 # Problem statement
 Write a ROS node (Python or C++) for a differential drive robot in an unknown environment to implement the following trajectory:
