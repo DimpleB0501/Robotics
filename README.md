@@ -18,6 +18,10 @@
 `sudo apt install ros-melodic-depthimage-to-laserscan -y`
 follow the [tutorial](https://automaticaddison.com/how-to-launch-the-turtlebot3-simulation-with-ros/) for turtlebot3 installation in ros melodic 
 
+### move base
+`sudo apt update`
+`sudo apt install ros-move-base-msgs`
+
 ### Slam gmapping 
 Create a 2D occupancy grid map from the laser scan data and the mobile robot pose.
 
