@@ -35,28 +35,5 @@ Write a ROS node (Python or C++) for a differential drive robot in an unknown en
 ![x-y](./images/trajectory_taken.png)
 ![yaw](./images/yaw.png)
 
-# Installation
-### Installing ROS Navigation stack
-`sudo apt-get install ros-melodic-navigation`
-
-### Running chefbot
-`mkdir ~/catkin_ws/src` <br/>
-`catkin_create_pkg chefbot_description catkin xacro`<br/>
-`catkin build`<br/>
-`sudo apt update`<br/>
-`sudo apt install ros-melodic-joint-state-publisher-gui`<br/>
- `roslaunch chefbot_description view_robot.launch`<br/>
- ![chefbot](./images/chefbot.png)
-
-
-### Running chefbot in gazebo
-`sudo apt install ros-melodic-depthimage-to-laserscan -y`
-follow the [tutorial](https://automaticaddison.com/how-to-launch-the-turtlebot3-simulation-with-ros/) for turtlebot3 installation in ros melodic 
-
-### move base
-`sudo apt update`
-`sudo apt install ros-move-base-msgs`
-
-### Slam gmapping 
-Create a 2D occupancy grid map from the laser scan data and the mobile robot pose.
-
+# Writeup
+I have used turtlebot3 (burger model) as my differential drive robot. To install and work with turtlebot3 in ros melodic (ubuntu 18.04) I have followed this [tutorial](https://automaticaddison.com/how-to-launch-the-turtlebot3-simulation-with-ros/). 
