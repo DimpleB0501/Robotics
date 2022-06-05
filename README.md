@@ -47,6 +47,8 @@ Write a ROS node (Python or C++) for a differential drive robot in an unknown en
 Terminal 1: `roslaunch simple_navigation_goals gazebo_navigation_rviz_world.launch` <br/>
 Terminal 2: `rosrun simple_navigation_goals move_base_wps.py`<br/>
 
+### Plot of x-y coordinates in unknown world
+![unknow_world](./images/turtle_xy_world.png)
 # Writeup
 I have used turtlebot3 (burger model) as my differential drive robot. To install and work with turtlebot3 in ros melodic (ubuntu 18.04) I have followed this [tutorial](https://automaticaddison.com/how-to-launch-the-turtlebot3-simulation-with-ros/). <br/>
 To understand how to send goal pose to turtlebot3 using ROS navigation stack, I have used this [tutorial](https://hotblackrobotics.github.io/en/blog/2018/01/29/action-client-py/). <br/>
