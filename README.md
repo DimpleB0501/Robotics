@@ -35,6 +35,14 @@ Write a ROS node (Python or C++) for a differential drive robot in an unknown en
 ![x-y](./images/trajectory_taken.png)
 ![yaw](./images/yaw.png)
 
+## Turtlebot trajectory tracking in unknown world
+
+|Output of Turtlebot navigating the given waypoints in unknown world|
+|:------------:|
+|![Output video](./images/turtlebot_world.gif)|
+|[Youtube Link](https://youtu.be/_c0dAkYNTVg)|
+
+
 # Writeup
 I have used turtlebot3 (burger model) as my differential drive robot. To install and work with turtlebot3 in ros melodic (ubuntu 18.04) I have followed this [tutorial](https://automaticaddison.com/how-to-launch-the-turtlebot3-simulation-with-ros/). <br/>
 To understand how to send goal pose to turtlebot3 using ROS navigation stack, I have used this [tutorial](https://hotblackrobotics.github.io/en/blog/2018/01/29/action-client-py/). <br/>
