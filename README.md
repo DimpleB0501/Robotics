@@ -14,17 +14,26 @@ Write a ROS node (Python or C++) for a differential drive robot in an unknown en
 
 # Solution
 ## Turtlebot following a trajectory in empty world in gazebo environment
-Run <br/>
 ### Terminal 1
 `cd catkin_ws`<br/>
 `roslaunch simple_navigation_goals gazebo_navigation_rviz.launch`<br/>
 ### Terminal 2
 `rosrun simple_navigation_goals move_base_wps.py`
 
-|Turtlebot navigating the given waypoints in empty world|
+|Output of Turtlebot navigating the given waypoints in empty world|
 |:------------:|
 |![Output video](./images/turtlebot_wps.gif)|
 |[Youtube Link](https://youtu.be/ysVizCS7czk)|
+
+## Plotting trajectory (x-y coordinates) taken by the turtlebot (given waypoints) and  yaw angles 
+- Recording rosbags of amcl_pose topic <br/>
+`rosbag record /amcl_pose`
+- Saving rosbag as a text file <br/>
+`rostopic echo -p -b 2022-06-05-10-13-46.bag /amcl_pose > pose.txt`<br/>
+- Plotting <br/>
+`python3 plot_wps.py`<br/>
+![x-y](./images/trajectory_taken.png)
+![yaw](./images/yaw.png)
 
 # Installation
 ### Installing ROS Navigation stack
