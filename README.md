@@ -43,9 +43,9 @@ Write a ROS node (Python or C++) for a differential drive robot in an unknown en
 |[Youtube Link](https://youtu.be/_c0dAkYNTVg)|
 
 
-Run 
-Terminal 1: `roslaunch simple_navigation_goals gazebo_navigation_rviz_world.launch`
-Terminal 2: `rosrun simple_navigation_goals move_base_wps.py`
+### Run 
+Terminal 1: `roslaunch simple_navigation_goals gazebo_navigation_rviz_world.launch` <br/>
+Terminal 2: `rosrun simple_navigation_goals move_base_wps.py`<br/>
 
 # Writeup
 I have used turtlebot3 (burger model) as my differential drive robot. To install and work with turtlebot3 in ros melodic (ubuntu 18.04) I have followed this [tutorial](https://automaticaddison.com/how-to-launch-the-turtlebot3-simulation-with-ros/). <br/>
