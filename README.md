@@ -41,7 +41,9 @@ Write a ROS node (Python or C++) for a differential drive robot in an unknown en
 |:------------:|
 |![Output video](./images/turtlebot_world.gif)|
 |[Youtube Link](https://youtu.be/_c0dAkYNTVg)|
-Run <br/>
+
+
+Run 
 Terminal 1: `roslaunch simple_navigation_goals gazebo_navigation_rviz_world.launch`
 Terminal 2: `rosrun simple_navigation_goals move_base_wps.py`
 
